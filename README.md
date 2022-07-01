@@ -8,7 +8,26 @@ The following regular expression can be used to verify that user input is a vali
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ```
 
+## Table of Contents
 
+- [Regex-Tutorial](#regex-tutorial)
+  - [Summary](#summary)
+  - [Table of Contents](#table-of-contents)
+  - [Regex Components](#regex-components)
+    - [Anchors](#anchors)
+    - [Quantifiers](#quantifiers)
+    - [OR Operator](#or-operator)
+    - [Character Classes](#character-classes)
+    - [Flags](#flags)
+    - [Grouping and Capturing](#grouping-and-capturing)
+    - [Bracket Expressions](#bracket-expressions)
+    - [Greedy and Lazy Match](#greedy-and-lazy-match)
+    - [Boundaries](#boundaries)
+    - [Back-references](#back-references)
+    - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+  - [Author](#author)
+
+## Regex Components
 
 ### Anchors
 Anchors are used to “anchor” the regex match at a certain position.
